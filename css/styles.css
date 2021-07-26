@@ -581,7 +581,8 @@ progress {
   height: 300px;
 }
 .img-tech{
-	
+	text-align:center;
+	padding-right: 4.2%;
 }
 
 .img-thumbnail {
