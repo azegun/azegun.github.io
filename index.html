@@ -30,8 +30,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                    	<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                    	 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#available">Available</a></li>    
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>                                          
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -51,7 +52,8 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">웹 개발자</p>
+                <p class="masthead-subheading font-weight-light mb-0">웹 개발자 &nbsp;
+                 <a class="contact" href="#address"> <i class="fas fa-address-card"></i></a> </p>
             </div>
           
         </header>
@@ -63,16 +65,10 @@
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line divider-custom-line2 "></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon">  <i class="fab fa-medapps"></i></div>
                     <div class="divider-custom-line divider-custom-line2  "></div>
                 </div>
-             <!--    <h2 class="about_section page-section-heading text-center text-uppercase  ">About</h2>
-                Icon Divider
-                <div class="about_section divider-custom divider-light ">
-                    <div class="about_section divider-custom-line " ></div>
-                    <div class=" about_section"><i class="fas fa-star"></i></div>
-                    <div class="about_section divider-custom-line "></div>
-                </div> -->
+   
                 <!-- About Section Content-->
                 <div class="row">
                     <div class="col-lg-4 ms-auto"><p class="lead1">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
@@ -80,13 +76,34 @@
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light1" href="https://startbootstrap.com/theme/freelancer/">
+                    <a class="btn btn-xl btn-outline-light1" target="_blank" href="assets/img/file/resume.pdf">
                         <i class="fas fa-download me-2"></i>
-                        Free Download!
+                        Resume!
                     </a>
                 </div>
             </div>
         </section>
+           <!-- Available Section Content-->
+         <section class="page-section  text-white mb-0" id="available">
+            <div class="container">                         
+                <!-- Available Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">AVAILABLE</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line divider-custom-line2 "></div>
+                    <div class="divider-custom-icon"> <i class="fas fa-check"></i></div>
+                    <div class="divider-custom-line divider-custom-line2  "></div>
+                </div>
+                	<div class= "">
+                  	<img class="img-tech" src="assets/img/tech/spring.png"  alt="..." />
+                  	<img class="img-tech" src="assets/img/tech/spring.png"  alt="..." />
+                  	<img class="img-tech" src="assets/img/tech/spring.png"  alt="..." />
+                  	<img class="img-tech" src="assets/img/tech/spring.png"  alt="..." />
+                  	</div>
+                </div>
+                </section>        
+                
+                
         <!-- Portfolio Section-->
         <section class="page-section portfolio bg-primary" id="portfolio">
             <div class="container">
@@ -107,28 +124,38 @@
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
                     <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
+                    <div class="col-md-6 col-lg-4 mb-5" >                    
+                        <div class="portfolio-item mx-auto" >                                   
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">                                                       
+                               <div class="portfolio-item-caption-content text-center text-white btn-center"> 
+                            	   <a class="btn  btn-outline-light2" target="_blank" href="assets/img/file/swing_project.pdf">전체 PDF보기</a>&nbsp;
+	                               <a class="btn btn-outline-light2" target="_blank" href="assets/img/file/swing_project_simple.pdf">요약 PDF보기</a>	                               
+                               </div>
+                            </div>                         	   
                           		  <img class="img-fluid" src="assets/img/swing3.png"  alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                        <div class="portfolio-item mx-auto">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white  btn-center">
+	                               <a class="btn  btn-outline-light2" target="_blank" href="assets/img/file/swing_project.pdf">전체 PDF보기</a>&nbsp;
+	                               <a class="btn btn-outline-light2" target="_blank" href="assets/img/file/swing_project_simple.pdf">요약 PDF보기</a>	                 
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/funding.png" alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <div class="portfolio-item mx-auto">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white btn-center">
+                         		      <a class="btn  btn-outline-light2" target="_blank" href="assets/img/file/swing_project.pdf">전체 PDF보기</a>&nbsp;
+	                              	 <a class="btn btn-outline-light2" target="_blank" href="assets/img/file/swing_project_simple.pdf">요약 PDF보기</a>	          
+	                              	   
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/board.png" alt="..." />
                         </div>
@@ -173,8 +200,8 @@
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fab fa-stack-exchange"></i></div>
+                    <div class="divider-custom-line"></div>                  
                 </div>
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
@@ -238,33 +265,34 @@
         </section>
         <!-- Footer-->
         <footer class="footer text-center">
-            <div class="container">
+            <div class="container" id= "address">
                 <div class="row">
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="
- mb-0">
-                            2215 John Daniel Drive
+                        <p class="mb-0">
+                           	대구광역시 달서구 월배로28안길 15
                             <br />
-                            Clark, MO 65243
+                          해동빌라602호
+                         
                         </p>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+	                        <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.instagram.com/azegun/">
+	                      		  <i class="fab fa-fw fa-instagram"></i>
+	                        </a>
+	                        <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://github.com/azegun">
+	                        		<i class="fab fa-github"></i>
+	                        </a>
                     </div>
+                 
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
+                        <h4 class="text-uppercase mb-4">Contact Number  <i class="fab fa-whatsapp"></i></h4>
+                        <p class="lead mb-0">                          
+                           010-3302-1972
                         </p>
                     </div>
                 </div>
@@ -276,27 +304,30 @@
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
+       <!--  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true"> -->
+        <a class="btn btn-xl btn-outline-light1" href="assets/img/file/swing_project.pdf"></a>
+        <!--     <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
                     <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
+                                 -->
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
-                                    <!-- Icon Divider-->
+                              <!--       <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    Icon Divider
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
+                                    Portfolio Modal - Image
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    Portfolio Modal - Text
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p> -->
+                                    
+                     <!--                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
                                     </button>
@@ -305,8 +336,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div> -->
+        <!-- </div> -->
         <!-- Portfolio Modal 2-->
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
             <div class="modal-dialog modal-xl">
