@@ -11153,7 +11153,7 @@ html {
   margin-top:5%;
    margin-right: 5%;
   margin-left: 5%;
-  margin-bottom: 10%; 
+  margin-bottom: 7%; 
   
 }
 /* .box:hover
@@ -11222,19 +11222,15 @@ html {
   letter-spacing:1px;
 }
 .img-tech-all{
-/* 	display: flex;
-	margin-left: 7%; */
+	width:100%;
 	text-align: center;
 
 }
 .img-tech-front{
-	margin-left: 14%;
 }
 .img-tech-back{
-	    margin-left: 14%;
 }
 .img-tech-data{
-	 margin-left: 14%;
 }
 .hidden{
 	display: none;
@@ -11246,9 +11242,13 @@ html {
 	opacity: 0.8;	
 }
 .tech-info{
-	color: black;
-	border: 1px solid black;
-	margin-bottom: 10%;
+	color: #6e6b6b;
+	margin-bottom: 5%;
+	font-size: 1.5rem;
+	font-weight: bold;
+	word-spacing: 4px;
+	letter-spacing: 3px;
+	
 }
 
 
